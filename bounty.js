@@ -5,12 +5,12 @@ function runningFormatter(value, row, index) {
 
 document.addEventListener('DOMContentLoaded', function() {
   var config = {
-    apiKey: "AIzaSyCHdw2cGbpMacCcVYZAbSFyM9HT5_sRskc",
-    authDomain: "bounty-a8d8e.firebaseapp.com",
-    databaseURL: "https://bounty-a8d8e.firebaseio.com",
-    projectId: "bounty-a8d8e",
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
     storageBucket: "",
-    messagingSenderId: "197343013898"
+    messagingSenderId: ""
   }
 
   firebase.initializeApp(config);
@@ -89,7 +89,7 @@ function setUpEventListeners() {
 
 function adminPage() {
   let fireBaseUser = firebase.auth().currentUser.displayName;
-  if (fireBaseUser === "Joe Horn") {
+  if (fireBaseUser === "xxxxxxx") {
 
     let adminButton = document.getElementById('inputForm').style.display;
     if (adminButton == "block") {
@@ -151,7 +151,7 @@ function refreshTable(location, address, bounty, items, status) {
 
 function updateItemUser(rowToUpdate) {
   const currentUser = document.getElementById("userName").innerHTML;
-  if (view.data[rowToUpdate].status === "No User" || (currentUser === "Joe Horn")){
+  if (view.data[rowToUpdate].status === "No User" || (currentUser === "xxxxx")){
 
   var $table = $('#bountyTable');
   $table.bootstrapTable('updateRow', {

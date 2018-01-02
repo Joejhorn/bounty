@@ -1,0 +1,37 @@
+.my-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important
+}
+.top-buffer {
+  margin-top: 40px;
+}
+
+.navbar-default {
+  background-color: #006dcc;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+
+ .navbar-default .navbar-nav  > li > a {
+  color: white;
+   }
+ .navbar-brand {
+   color: black !important;
+   font-size: 20px !important;
+   }
+
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 10px;
+  width: auto;
+}
+
+.formDiv {
+  margin-top: 40px;
+  padding-left: 0px;
+  border-left: 0px;
+}
